@@ -1,0 +1,75 @@
+{
+  "name": "I am warned when trying to create a new contact with a short phone number",
+  "id": "create-contacts-functionality;i-am-warned-when-trying-to-create-a-new-contact-with-a-short-phone-number",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Given I am logged in as admin",
+      "duration": 10118,
+      "startTime": "2019-05-16T18:11:42.116+05:30[Asia/Calcutta]",
+      "screenshots": [
+        {
+          "screenshot": "882a145564635749eaa9ac42508a6621dcb71de3bf94b99e5ecc712014115d5c.png",
+          "timeStamp": 1558010512234
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0
+    },
+    {
+      "number": 2,
+      "description": "When I click on \u0027Add\u0027",
+      "duration": 208,
+      "startTime": "2019-05-16T18:11:52.747+05:30[Asia/Calcutta]",
+      "screenshots": [
+        {
+          "screenshot": "6b52929ce4014d9a6c7d7d2441917ee50a85e719ac8b0497ff8c38b487c8b518.png",
+          "timeStamp": 1558010512954
+        },
+        {
+          "screenshot": "6b52929ce4014d9a6c7d7d2441917ee50a85e719ac8b0497ff8c38b487c8b518.png",
+          "timeStamp": 1558010512955
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0
+    },
+    {
+      "number": 3,
+      "description": "Then I should see a warning that the phone number is too short",
+      "duration": 209,
+      "startTime": "2019-05-16T18:11:53.465+05:30[Asia/Calcutta]",
+      "screenshots": [
+        {
+          "screenshot": "6b52929ce4014d9a6c7d7d2441917ee50a85e719ac8b0497ff8c38b487c8b518.png",
+          "timeStamp": 1558010513674
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0
+    }
+  ],
+  "userStory": {
+    "id": "create-contacts-functionality",
+    "storyName": "Create Contacts functionality",
+    "path": "features/first.feature",
+    "type": "feature"
+  },
+  "featureTag": {
+    "name": "Features/Create Contacts functionality",
+    "type": "feature",
+    "displayName": "Features/Create Contacts functionality"
+  },
+  "title": "I am warned when trying to create a new contact with a short phone number",
+  "startTime": "2019-05-16T18:11:42.085+05:30[Asia/Calcutta]",
+  "duration": 12089,
+  "projectKey": "",
+  "sessionId": "934bcbd55ea078a559f6cd32ca57f7ed",
+  "driver": "chrome",
+  "manual": false,
+  "testSource": "Cucumber",
+  "result": "SUCCESS"
+}

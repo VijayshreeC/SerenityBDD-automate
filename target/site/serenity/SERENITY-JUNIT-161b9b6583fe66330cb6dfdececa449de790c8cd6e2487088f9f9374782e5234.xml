@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Create Contacts functionality" skipped="0" tests="1" time="12.09" timestamp="2019-05-16 06:11:42"><testcase name="I am warned when trying to create a new contact with a short phone number"/></testsuite>
